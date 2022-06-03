@@ -4,7 +4,7 @@ from connexion import FlaskApp
 from connexion.resolver import RelativeResolver
 import petstore
 
-PORT=8080
+PORT=80
 API_NAME='petstore'
 API_SPEC_DIR=API_NAME
 API_SPEC_FILE=API_NAME + '.yaml'
